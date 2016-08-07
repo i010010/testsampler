@@ -7,9 +7,14 @@
 //
 
 #import <UIKit/UIKit.h>
+#import <AVFoundation/AVFoundation.h>
 
 @interface ViewController : UIViewController
 
+@property (nonatomic) AVAudioPlayer *audioPlayer;
+@property (weak, nonatomic) IBOutlet UIButton *Abutton;
+
+- (IBAction)Abtnfunc:(id)sender;
 
 @end
 
